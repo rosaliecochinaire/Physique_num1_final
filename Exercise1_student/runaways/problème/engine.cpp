@@ -28,7 +28,6 @@ private:
   double dt;      // Intervalle de temps
   double g;         //  1-nu/gamma
   double d;       // Dreicer normalisé
-  double t_d;
 
   valarray<double> N0 = std::valarray<double>(0.e0, 1); // Correctly initialized
   valarray<double> N  = std::valarray<double>(0.e0, 1); // Correctly initialized
